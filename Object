@@ -1,0 +1,15 @@
+public class Object {
+	Main parent;                          //decalares the Main class as the parent
+
+	int x;                                //declares the integer x for the whole class
+	
+	public void beep() {                  //declares the method beep. Notice how it isn't static
+		for (int i = 0; i < x; i++) {       //created a for loop where it runs 10 times.
+			System.out.println("Beep!" + i);  //prints Beep! plus the iteration of the loop
+		}
+	}
+	
+	Object(int x){                        //declares the constructor of Object with an integer argument.
+		this.x = x;                         //refers back to the integer declared in the beginning.
+	}
+}
