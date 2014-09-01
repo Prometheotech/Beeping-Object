@@ -1,0 +1,17 @@
+public class Main {
+	public static void main(String[] args) {
+		int z = Integer.parseInt(args[0]);
+		Object anObject = new Object(z);
+		anObject.beep();
+	}
+}
+
+// Give one integer argument when running code
+/**
+If you gave an argument like "5", then this would be the output:
+Beep!0
+Beep!1
+Beep!2
+Beep!3
+Beep!4
+*/
